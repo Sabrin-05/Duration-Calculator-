@@ -18,4 +18,4 @@ def dur_calc():
 
 
 dur_calc()
-
+ 
