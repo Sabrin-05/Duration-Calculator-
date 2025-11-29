@@ -14,8 +14,9 @@ def dur_calc():
     user_date = np.datetime64(input("Enter the date that you would like to work out: e.g.(YYYY-MM-DD)"))
     today = np.datetime64('today')
     calc = user_date - today
-    print(calc)
+    print(f"The duration between {user_date} and today is {calc} days")
+    
 
-
-dur_calc()
+if __name__ == "__main__":
+    dur_calc()
  
